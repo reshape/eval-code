@@ -1,0 +1,37 @@
+{
+  "name": "reshape-eval-code",
+  "description": "Evaluate all code nodes and transform to text nodes",
+  "version": "0.0.0",
+  "author": "Jeff Escalante",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/reshape/reshape-eval-code/issues",
+  "dependencies": {
+    "reshape-code-gen": "^0.2.1",
+    "reshape-parser": "^0.2.1",
+    "reshape-plugin-util": "^0.2.1"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "codecov": "^2.1.0",
+    "nyc": "^10.2.0",
+    "reshape": "^0.4.1",
+    "reshape-expressions": "^0.1.5",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "homepage": "https://github.com/reshape/reshape-eval-code",
+  "license": "MIT",
+  "main": "lib",
+  "repository": "reshape/reshape-eval-code",
+  "scripts": {
+    "codecov": "nyc report -r lcovonly && codecov",
+    "coverage": "nyc ava && nyc report --reporter=html && open ./coverage/index.html",
+    "lint": "standard | snazzy",
+    "test": "nyc ava"
+  }
+}
