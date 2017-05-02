@@ -1,5 +1,7 @@
 # Reshape Eval Code
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/reshape/eval-code.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/reshape-eval-code.svg?style=flat-square)](https://npmjs.com/package/reshape-eval-code)
 [![tests](https://img.shields.io/travis/reshape/reshape-eval-code.svg?style=flat-square)](https://travis-ci.org/reshape/reshape-eval-code?branch=master)
 [![dependencies](https://img.shields.io/david/reshape/reshape-eval-code.svg?style=flat-square)](https://david-dm.org/reshape/reshape-eval-code)
