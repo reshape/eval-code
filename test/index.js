@@ -15,6 +15,12 @@ test('loops', (t) => {
     .then((res) => { t.is(res.output(), '<p>one</p><p>two</p>') })
 })
 
+test('evals attribute code nodes', (t) => {
+  return reshape({ plugins: [expressions(), evalCode({ foo: 'bar' })] })
+    .process('<p class="{{ foo }}">content</p>')
+    .then((res) => { t.is(res.output(), '<p class="bar">content</p>') })
+})
+
 test('merges from reshape options locals', (t) => {
   return reshape({ plugins: [expressions(), evalCode()], locals: { foo: 'bar' } })
     .process('<p>{{ foo }}</p>')
