@@ -14,3 +14,9 @@ test('loops', (t) => {
     .process('<each loop="item in items"><p>{{ item }}</p></each>')
     .then((res) => { t.is(res.output(), '<p>one</p><p>two</p>') })
 })
+
+test('merges from reshape options locals', (t) => {
+  return reshape({ plugins: [expressions(), evalCode()], locals: { foo: 'bar' } })
+    .process('<p>{{ foo }}</p>')
+    .then((res) => { t.is(res.output(), '<p>bar</p>') })
+})
