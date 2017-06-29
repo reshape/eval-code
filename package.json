@@ -13,9 +13,9 @@
     "reshape-plugin-util": "^0.2.1"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
-    "codecov": "^2.1.0",
-    "nyc": "^10.2.0",
+    "ava": "^0.20.0",
+    "codecov": "^2.2.0",
+    "nyc": "^11.0.3",
     "reshape": "^0.4.1",
     "reshape-expressions": "^0.1.5",
     "snazzy": "^7.0.0",
