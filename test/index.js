@@ -26,3 +26,9 @@ test('merges from reshape options locals', (t) => {
     .process('<p>{{ foo }}</p>')
     .then((res) => { t.is(res.output(), '<p>bar</p>') })
 })
+
+test('correctly handles empty nodes', (t) => {
+  return reshape({ plugins: [expressions(), evalCode()], locals: { foo: 'bar' } })
+    .process('<p class="{{ true ? \'\' : \'\' }}"></p>')
+    .then((res) => { t.is(res.output(), '<p class></p>') })
+})

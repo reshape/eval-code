@@ -13,13 +13,13 @@
     "reshape-plugin-util": "^0.2.1"
   },
   "devDependencies": {
-    "ava": "^0.20.0",
-    "codecov": "^2.2.0",
-    "nyc": "^11.0.3",
+    "ava": "^0.22.0",
+    "codecov": "^2.3.0",
+    "nyc": "^11.1.0",
     "reshape": "^0.4.1",
     "reshape-expressions": "^0.1.5",
     "snazzy": "^7.0.0",
-    "standard": "^10.0.2"
+    "standard": "^10.0.3"
   },
   "engines": {
     "node": ">= 6"
