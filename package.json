@@ -6,7 +6,7 @@
   "ava": {
     "verbose": "true"
   },
-  "bugs": "https://github.com/reshape/reshape-eval-code/issues",
+  "bugs": "https://github.com/reshape/eval-code/issues",
   "dependencies": {
     "reshape-code-gen": "^0.2.1",
     "reshape-parser": "^0.2.1",
@@ -24,10 +24,10 @@
   "engines": {
     "node": ">= 6"
   },
-  "homepage": "https://github.com/reshape/reshape-eval-code",
+  "homepage": "https://github.com/reshape/eval-code",
   "license": "MIT",
   "main": "lib",
-  "repository": "reshape/reshape-eval-code",
+  "repository": "reshape/eval-code",
   "scripts": {
     "codecov": "nyc report -r lcovonly && codecov",
     "coverage": "nyc ava && nyc report --reporter=html && open ./coverage/index.html",
