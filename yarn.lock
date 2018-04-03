@@ -65,8 +65,8 @@ acorn@^3.0.4, acorn@^3.1.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
 acorn@^4.0.4:
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.11.tgz#edcda3bd937e7556410d42ed5860f67399c794c0"
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.13.tgz#105495ae5361d697bd195c825192e1ad7f253787"
 
 acorn@^5.0.1:
   version "5.0.3"
@@ -3226,6 +3226,13 @@ require-uncached@^1.0.2:
 reshape-code-gen@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/reshape-code-gen/-/reshape-code-gen-0.2.1.tgz#e1cd981b0573138661d34b54244d38f09ab33d14"
+  dependencies:
+    objectfn "^2.0.0"
+    with "^5.1.1"
+
+reshape-code-gen@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/reshape-code-gen/-/reshape-code-gen-1.0.0.tgz#c7d23cb133eacc9e5c1e6a83b3fe57c200e18eb0"
   dependencies:
     objectfn "^2.0.0"
     with "^5.1.1"

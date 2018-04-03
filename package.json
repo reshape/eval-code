@@ -8,7 +8,7 @@
   },
   "bugs": "https://github.com/reshape/eval-code/issues",
   "dependencies": {
-    "reshape-code-gen": "^0.2.1",
+    "reshape-code-gen": "^1.0.0",
     "reshape-parser": "^0.2.1",
     "reshape-plugin-util": "^0.2.1"
   },
